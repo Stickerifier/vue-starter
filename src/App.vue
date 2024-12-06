@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import DownloadFile from "./components/DownloadFile.vue";
 </script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo"/>
+    <a href="https://t.me/StickerifyImageBot" target="_blank">
+      <img src="/stickerify.svg" class="logo stickerify" alt="Stickerify logo"/>
     </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo"/>
+    <a href="https://github.com/Stickerifier/Stickerify" target="_blank">
+      <img src="./assets/github.svg" class="logo github" alt="GitHub logo"/>
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue"/>
+  <DownloadFile />
 </template>
 
 <style scoped>
@@ -22,11 +22,11 @@ import HelloWorld from './components/HelloWorld.vue'
   transition: filter 300ms;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.logo.stickerify:hover {
+  filter: drop-shadow(0 0 2em #48aeceff);
 }
 
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.logo.github:hover {
+  filter: drop-shadow(0 0 2em #aeb1b1);
 }
 </style>

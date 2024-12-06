@@ -1,4 +1,4 @@
-# Triager
+# <img src="public/stickerify.svg" alt="Stickerify Logo" align="right" width="100">[Triager](https://t.me/StickerifyImageBot)
 
 ## Local Development
 

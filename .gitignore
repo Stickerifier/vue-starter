@@ -26,3 +26,4 @@ dist-ssr
 *.bat
 
 caddy.exe
+.env
